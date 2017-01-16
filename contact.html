@@ -2,33 +2,38 @@
 <html>
 <head>
 	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<div class="main-container">
 
-		<div class="header-nav">
-			<header>
-				<h1>Shawn Assour</h1>
-				<nav>
-					<a href="index.html">About</a> |
-					<a href="portfolio.html">Portfolio</a> |
-					<a href="contact.html">Contact</a>
-				</nav>
-			</header>
+		
+	<header>
+		<div class="wrapper">
+			<h1 class="header-text">Shawn Assour</h1>
+			<nav>
+				<a href="index.html">About</a> |
+				<a href="portfolio.html">Portfolio</a> |
+				<a href="contact.html">Contact</a>
+			</nav>
 		</div>
+	</header>
 
+	<div class="wrapper">
 		<div class="content">
 			<h1>Contact</h1>
-			<form action="mailto:someone@example.com" method="post" enctype="text/plain">
-				Name<br>
-				<input type="text" name="John Smith"><br>
-				Email<br>
-				<input type="text" name="email@example.com"><br>
-				Message<br>
-				<textarea rows="4" cols="50"></textarea>
-				<br>
-				<input type="submit" value="Submit">
-			</form>
+			<hr>
+			<div class="email-form">
+				<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+					Name<br>
+					<input type="text" name="John Smith"><br><br>
+					Email<br>
+					<input type="text" name="email@example.com"><br><br>
+					Message<br>
+					<textarea rows="15" cols="90"></textarea>
+					<br>
+					<button type="submit">Submit</button>
+				</form>
+			</div>
 		</div>
 
 		<div class="connect">
@@ -36,16 +41,17 @@
 			<hr>
 			<div class="connect-image">
 				<a href="http://www.github.com"> <img src="assets/images/gitHub.png" width="40" height="40"></a>
-				<a href="http://www.linkedin.com"> <img src="assets/images/linkedIn.png"></a>
-				<a href="http://www.stackoverflow.com"> <img src="assets/images/stackO.png"></a>
+				<a href="http://www.linkedin.com"> <img src="assets/images/linkedIn.png" width="40" height="40"></a>
+				<a href="http://www.stackoverflow.com"> <img src="assets/images/stackO.png" width="40" height="40"></a>
 			</div>
 		</div>
-
-		<div class="footer">
-			<h5>&copy; Copyright 2016 Shawn Assour</h5>
-		</div>
-
 	</div>
+
+	<footer>
+		<div class="wrapper">
+			<h6>&copy; Copyright 2016 Shawn Assour</h6>
+		</div>
+	</footer>
 
 </body>
 </html>

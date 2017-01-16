@@ -1,0 +1,146 @@
+html, body {
+
+	color: #777777;
+	font: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+	background-image: url('https://image.freepik.com/free-vector/grey-linen-texture-background_1053-253.jpg');
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+	font:'Georgia', 'Times', 'Times New Roman', 'serif';
+	color: #4aaaa5;
+
+}
+
+div, header, nav, footer {
+	box-sizing: border-box;
+}
+
+/*div wrapper*/
+.wrapper {
+
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+
+/*div header-nav*/
+header {
+
+	background-color: #ffffff;
+	border-bottom: solid;
+	border-color: #cccccc;
+	margin-bottom: 20px;
+
+}
+
+
+/*div content*/
+.content {
+
+	width: 650px;
+	background-color: #ffffff;
+	border-color: #cccccc;
+	border: thin solid;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+/*div connect w/ me*/
+.connect {
+
+	width: 270px;
+	background-color: #ffffff;
+	text-align: center;
+	border-color: #cccccc;
+	border: thin solid;
+	float: left;
+	margin-left: 20px;
+	padding: 10px;
+
+}
+
+#headshot {
+
+	float: left;
+	margin: 20px;
+}
+
+/*div footer*/
+footer {
+	
+	background-color: #666666;
+	text-align: center;
+	clear: both;
+	padding: 5px;
+	border-top: thick solid;
+	border-color: #4aaaa5;
+	color: #cccccc;
+
+}
+
+.header-text {
+
+	background-color: #4aaaa5;
+	color: white;
+	width: 200px;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    margin: 0;
+
+
+}
+
+nav {
+	
+	display: inline-block;
+	text-align: right;
+
+}
+
+.left {
+
+	width: 478px;
+	text-align: left;
+	display: inline-block;
+}
+
+.right {
+
+	width: 478px;
+	text-align: right;
+	display: inline-block;
+}
+
+input {
+
+	width: 100%;
+
+}
+
+textarea {
+ 
+ width: 100%;
+
+}
+
+button {
+
+	background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
