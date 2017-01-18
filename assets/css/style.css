@@ -53,12 +53,12 @@ header {
 
 	width: 650px;
 	background-color: #ffffff;
-	border-color: #cccccc;
 	border: 1px solid;
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 20px;
 	padding: 20px;
+	border-color: #cccccc;
 }
 
 /*div connect w/ me*/
@@ -67,12 +67,11 @@ header {
 	width: 270px;
 	background-color: #ffffff;
 	text-align: center;
-	border-color: #cccccc;
 	border: thin solid;
 	float: left;
 	margin-left: 20px;
 	padding: 10px;
-
+	border-color: #cccccc;
 }
 
 /*headshot image*/
