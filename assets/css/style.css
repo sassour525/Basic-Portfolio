@@ -60,6 +60,8 @@ header {
 	margin-bottom: 20px;
 	padding: 20px;
 	border-color: #cccccc;
+/*	max-height: auto;
+	overflow: auto;*/
 }
 
 /*div connect w/ me*/
@@ -98,6 +100,7 @@ footer {
 
 }
 
+/*edit footer when content is too long for the page*/
 footer.withScroll {
 
 	position: inherit;
